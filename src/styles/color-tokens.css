@@ -17,8 +17,8 @@
   --color-border-neutral: rgba(217, 217, 217, 0.2);
   --color-divider: rgba(217, 217, 217, 0.12);
 
-  --color-alert-critical: rgba(255, 95, 95);
-  --color-alert-critical-soft: rgba(255, 95, 95, 0.12);
+  --color-alert-critical: rgba(255, 95, 95, 1);
+  --color-alert-critical-soft: rgba(255, 95, 95, 0.3);
 
   --color-chart-accent-primary: rgba(102, 255, 51, 0.75);
   --color-chart-secondary: rgba(0, 247, 213, 0.6);
