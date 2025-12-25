@@ -37,6 +37,8 @@ export const dashboardData = {
     type: "Action Needed",
     time: "2 minutes ago",
     cta: "View Autotrader",
+    alertState: "error",
+    alertStatus: "active",
   },
   topAutotraders: [
     {

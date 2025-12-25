@@ -768,10 +768,22 @@ main {
   gap: 5px;
   padding: 5px 12px;
   border-radius: var(--radius-md);
-  background: linear-gradient(180deg, rgba(92, 35, 35, 0.35), rgba(48, 22, 30, 0.7));
-  border: 1px solid rgba(255, 123, 123, 0.25);
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-neutral);
   box-shadow: inset 0 0 10px rgba(255, 123, 123, 0.1), 0 0 18px rgba(255, 123, 123, 0.08);
   height: 100%;
+}
+
+.alert-card[data-alert-state="error"][data-alert-status="active"] {
+  background:
+    linear-gradient(180deg,
+      var(--color-alert-critical-soft) 0%,
+      var(--color-alert-critical-soft) 60%
+    ),
+    linear-gradient(180deg,
+      transparent 0%,
+      var(--color-bg-primary) 100%
+    );
 }
 
 .alert-title {
