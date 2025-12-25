@@ -770,7 +770,7 @@ main {
   border-radius: var(--radius-md);
   background: var(--color-bg-surface);
   border: 1px solid var(--color-border-neutral);
-  box-shadow: inset 0 0 10px rgba(255, 123, 123, 0.1), 0 0 18px rgba(255, 123, 123, 0.08);
+  box-shadow: none;
   height: 100%;
 }
 
@@ -781,9 +781,19 @@ main {
       var(--color-alert-critical-soft) 60%
     ),
     linear-gradient(180deg,
+      var(--color-alert-critical-soft) 0%,
+      var(--color-alert-critical-soft) 60%
+    ),
+    linear-gradient(180deg,
       transparent 0%,
       var(--color-bg-primary) 100%
     );
+  border: 1px solid var(--color-alert-critical);
+  box-shadow:
+    inset 0 0 10px var(--color-alert-critical-soft),
+    inset 0 0 10px var(--color-alert-critical-soft),
+    0 0 18px var(--color-alert-critical-soft),
+    0 0 18px var(--color-alert-critical-soft);
 }
 
 .alert-title {
