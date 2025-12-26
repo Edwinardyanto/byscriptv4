@@ -1,5 +1,6 @@
 :root {
   --color-bg-primary: #000000;
+  --color-bg-primary-soft: rgba(0, 0, 0, 0.3);
   --color-bg-contrast: #2a2f3a;
   --color-bg-surface: #1a1a1a;
   --color-bg-surface-raised: #2a2f3a;
