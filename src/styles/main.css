@@ -781,10 +781,6 @@ main {
       var(--color-alert-critical-soft) 60%
     ),
     linear-gradient(180deg,
-      var(--color-alert-critical-soft) 0%,
-      var(--color-alert-critical-soft) 60%
-    ),
-    linear-gradient(180deg,
       transparent 0%,
       var(--color-bg-primary) 100%
     );
